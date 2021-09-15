@@ -8,7 +8,7 @@ if(props.items.length===0)
 }
 
   return (
-    <ul className='expense-list'>
+    <ul className='expenses-list'>
       {props.items.map((expense) => (
         <ExpenseItem
           key={expense.id}
@@ -22,3 +22,5 @@ if(props.items.length===0)
 };
 
 export default ExpensesList;
+
+
